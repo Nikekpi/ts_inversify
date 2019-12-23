@@ -1,0 +1,22 @@
+{
+  "name": "ts-inversify",
+  "version": "0.0.0",
+  "description": "Setup inversify IoC in TypeScript project",
+  "main": "dist/main.js",
+  "author": "Andrejs Abrickis",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.6",
+    "inversify": "^5.0.1",
+    "jest": "^24.1.0",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^3.3.3333"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "ts-jest": "^24.0.0"
+  }
+}
